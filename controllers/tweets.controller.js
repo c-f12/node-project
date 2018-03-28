@@ -9,6 +9,11 @@ function get(query){
     }  
 }
 
+function post(tweet) {
+    return tweetModel.post(tweet);
+  }
+
 module.exports = {
-    get
+    get,
+    post
 };
